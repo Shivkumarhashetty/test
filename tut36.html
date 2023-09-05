@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes and animations</title>
+</head>
+<style>
+    .container{
+        background-color: yellow;
+    }
+    .box{
+        background-color: green;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation-name: Shivu1;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        animation-fill-mode: forwards;
+    }
+     @keyframes Shivu1 {
+        from{
+            width: 200px;
+        }
+        to{
+            width: 4oopx;
+        }
+     }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            this is a box
+        </div>
+    </div>
+</body>
+</html>
